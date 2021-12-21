@@ -1,0 +1,81 @@
+#include "stdafx.h"
+#include "Detail.h"
+
+CDetail::CDetail() :
+	m_fAngle(0.f)
+{
+}
+
+
+CDetail::~CDetail()
+{
+}
+
+int CDetail::Update()
+{
+	return 0;
+}
+
+void CDetail::LateUpdate()
+{
+}
+
+void CDetail::Render()
+{
+	D3DXMATRIX matScale, matTrans;
+
+	const TEX_INFO* pTexInfo = nullptr;
+	
+	TCHAR szIndexNum[MIN_STR] = L"";
+
+	pTexInfo = m_pTextureMgr->GetTexInfo(L"Dungeon", L"Detail", m_tInfo.byDrawID);
+	NULL_CHECK(pTexInfo);
+
+	D3DXMatrixScaling(&matScale,
+		m_tInfo.vSize.x,
+		m_tInfo.vSize.y,
+		m_tInfo.vSize.z);
+	D3DXMatrixTranslation(&matTrans,
+		m_tInfo.vPos.x - CScrollMgr::GetScrollPos().x,
+		m_tInfo.vPos.y - CScrollMgr::GetScrollPos().y,
+		m_tInfo.vPos.z);
+
+	m_tInfo.fCenterX = pTexInfo->tImgInfo.Width * 0.5f;
+	m_tInfo.fCenterY = pTexInfo->tImgInfo.Height * 0.5f;
+
+	m_pDeviceMgr->GetSprite()->SetTransform(&(matScale * matTrans));
+	m_pDeviceMgr->GetSprite()->Draw(pTexInfo->pTexture, nullptr,
+		&D3DXVECTOR3(m_tInfo.fCenterX, m_tInfo.fCenterY, 0.f), nullptr, D3DCOLOR_ARGB(255, 255, 255, 255));
+
+	
+}
+
+
+
+HRESULT CDetail::Initialize()
+{
+	ZeroMemory(&m_tInfo,sizeof(TILE_INFO));
+	m_tInfo.vSize = {1.f, 1.f, 0.f};
+	m_fAngle = 0.f;
+
+	return S_OK;
+}
+
+void CDetail::Release()
+{
+}
+
+CDetail * CDetail::Create(D3DXVECTOR3 vPos, BYTE byDrawID)
+{
+	CDetail* pInstance = new CDetail;
+
+	if (FAILED(pInstance->Initialize()))
+	{
+		SafeDelete(pInstance);
+		return nullptr;
+	}
+	pInstance->m_tInfo.vPos = vPos;
+	pInstance->m_tInfo.byDrawID = byDrawID;
+
+	return pInstance;
+}

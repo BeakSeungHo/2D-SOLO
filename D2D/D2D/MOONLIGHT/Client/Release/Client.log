@@ -1,0 +1,93 @@
+﻿  stdafx.cpp
+  Back.cpp
+  Boss.cpp
+  BossStage.cpp
+  Breakable.cpp
+  Bullet.cpp
+  Chest.cpp
+  Client.cpp
+  CollisionMgr.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(34): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(35): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(61): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(62): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(121): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(153): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\collisionmgr.cpp(154): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Detail.cpp
+  DeviceMgr.cpp
+  Door.cpp
+  FrameMgr.cpp
+  GameObject.cpp
+  HealingPool.cpp
+  SoundMgr.cpp
+  UI.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\ui.cpp(60): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\ui.cpp(459): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Inventory.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(60): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(76): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(75): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(91): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(90): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(120): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(119): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(144): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(143): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(170): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\inventory.cpp(169): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Item.cpp
+  KeyMgr.cpp
+  Logo.cpp
+  컴파일하고 있습니다...
+  MainGame.cpp
+  Monster.cpp
+  Monster2.cpp
+  Mouse.cpp
+  MultiTexture.cpp
+  MyButton.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\mybutton.cpp(38): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\mybutton.cpp(50): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\mybutton.cpp(62): warning C4838: 'double'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\mybutton.cpp(61): warning C4244: '초기화 중': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\mybutton.cpp(62): warning C4244: '초기화 중': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObjectMgr.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(128): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(128): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(176): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(233): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(257): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(258): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(259): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\objectmgr.cpp(260): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\player.cpp(686): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\player.cpp(714): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+  Punch.cpp
+  Rock.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  ScrollMgr.cpp
+  SingleTexture.cpp
+  Stage.cpp
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(179): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(237): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(250): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(256): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(262): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(268): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\백승호\desktop\d2d\d2d\moonlight\client\stage.cpp(405): warning C4244: '인수': 'float'에서 'const BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Terrain.cpp
+  Texture.cpp
+  TextureMgr.cpp
+  TimeMgr.cpp
+  Wall.cpp
+  컴파일하고 있습니다...
+  Wave.cpp
+  코드를 생성하고 있습니다.
+  1390 of 1400 functions (99.3%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Client.vcxproj -> C:\Users\백승호\Desktop\D2D\D2D\MOONLIGHT\Release\Client.exe

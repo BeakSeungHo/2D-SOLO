@@ -1,0 +1,2 @@
+﻿ToolView.obj : error LNK2001: "public: class CToolDoc * __thiscall CToolView::GetDocument(void)const " (?GetDocument@CToolView@@QBEPAVCToolDoc@@XZ) 외부 기호를 확인할 수 없습니다.
+C:\Users\SH\Downloads\D2D\DefaultWindow\Release\Tool.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

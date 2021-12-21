@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{11e8de7e-4aa2-430e-a2cf-47005c3bd494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{65f2b414-b99d-4d74-801e-82cf646cadd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{10b38aeb-71f7-42e0-a57a-2c0a5f40f385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers">
+      <UniqueIdentifier>{9a77705f-c29d-4fba-a8c5-6652529bb5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\00.KeyMgr">
+      <UniqueIdentifier>{057b1b09-c7e5-4bc6-9447-7c0bb60b3528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.DeviceMgr">
+      <UniqueIdentifier>{49355c2a-5ade-4241-8995-0bcb4c07b0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr">
+      <UniqueIdentifier>{47b61b2a-1af7-41e6-a2b1-2ed558b284a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture">
+      <UniqueIdentifier>{94111d80-ba27-481b-be44-0e0abbf1d103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{547c576c-9cbc-4392-b4d5-ac7b5dd903aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{59a5af6e-a93c-4781-8bd7-4b42c171e393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\03.ObjectMgr">
+      <UniqueIdentifier>{043d3eb4-39b7-4c30-bc13-9e2add4aa34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\04.ScrollMgr">
+      <UniqueIdentifier>{fb94137b-bbd0-4be6-9bb7-cb01e04e5af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\05.TimeMgr">
+      <UniqueIdentifier>{6a4061ee-70be-4295-9030-63f189b0eb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.SceneMgr">
+      <UniqueIdentifier>{6473acfa-1db2-4c58-bd94-b23d25c0e8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.SceneMgr\00.Scene">
+      <UniqueIdentifier>{3c88d73f-db79-4c45-9530-68c941774ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.SceneMgr\00.Scene\00.Logo">
+      <UniqueIdentifier>{566f7902-92ae-45f2-a518-d367cc3e8d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.SceneMgr\00.Scene\01.Stage">
+      <UniqueIdentifier>{6a2b2443-35f6-4247-afd4-0d40a80b0c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\07.FrameMgr">
+      <UniqueIdentifier>{0f5129c2-4861-43a1-ab64-c31efa360dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\08.FactoryMgr">
+      <UniqueIdentifier>{f335b365-dde6-4162-a1b2-68fc1890706b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.CollisionMgr">
+      <UniqueIdentifier>{67dab5d3-b912-4a4a-98e3-c9ff7265b204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Mouse">
+      <UniqueIdentifier>{9274904c-d77c-4642-b293-1f4446182636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Terrain">
+      <UniqueIdentifier>{62f8f766-d687-4c2a-8174-d9b3ce55a421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Player">
+      <UniqueIdentifier>{897fb94f-e19c-4d49-b52b-aa59788fe202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Button">
+      <UniqueIdentifier>{4926fca4-644c-40f8-b3b5-7ab6bfaa8cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Detail">
+      <UniqueIdentifier>{524e3772-a969-4408-9902-dd4cbf5d1cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Breakable">
+      <UniqueIdentifier>{de144f78-23fd-43de-b954-9638298e2471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.HealingPool">
+      <UniqueIdentifier>{dc36fae7-707c-45bc-8e03-138e6ff5f809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Chest">
+      <UniqueIdentifier>{4bd3afdc-28b7-4fc3-98b0-47d4b58c5ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\07.Back">
+      <UniqueIdentifier>{134c60ae-e31f-4f68-8805-477ab415a25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.Wall">
+      <UniqueIdentifier>{10398af1-c41f-406f-9e30-34fdd6659489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\09.Door">
+      <UniqueIdentifier>{78433518-b825-4f79-92d3-d44ddd76494f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\10.Monster">
+      <UniqueIdentifier>{af6a1a07-c992-4f2e-b765-b7ae67a16f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\11.Item">
+      <UniqueIdentifier>{f6334d19-1004-4161-bad6-40dfc737e5e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98.Managers\00.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Managers\01.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>98.Managers\03.ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>01.GameObject\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>98.Managers\04.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Managers\05.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98.Managers\06.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>98.Managers\06.SceneMgr\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>98.Managers\06.SceneMgr\00.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>98.Managers\06.SceneMgr\00.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>98.Managers\07.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>98.Managers\08.FactoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98.Managers\09.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>02.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01.GameObject\00.Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Breakable.h">
+      <Filter>01.GameObject\04.Breakable</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingPool.h">
+      <Filter>01.GameObject\05.HealingPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>01.GameObject\06.Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>01.GameObject\07.Back</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>01.GameObject\08.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="detail.h">
+      <Filter>01.GameObject\03.Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\10.Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98.Managers\00.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Managers\01.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>98.Managers\03.ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>01.GameObject\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>98.Managers\04.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Managers\05.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98.Managers\06.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>98.Managers\06.SceneMgr\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>98.Managers\06.SceneMgr\00.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>98.Managers\06.SceneMgr\00.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>98.Managers\07.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98.Managers\09.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>02.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01.GameObject\00.Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Breakable.cpp">
+      <Filter>01.GameObject\04.Breakable</Filter>
+    </ClCompile>
+    <ClCompile Include="HealingPool.cpp">
+      <Filter>01.GameObject\05.HealingPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>01.GameObject\06.Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>01.GameObject\07.Back</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>01.GameObject\08.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail.cpp">
+      <Filter>01.GameObject\03.Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\10.Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

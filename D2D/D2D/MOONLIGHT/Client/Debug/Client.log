@@ -1,0 +1,10 @@
+﻿  Stage.cpp
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(179): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(237): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(250): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(256): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(262): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(268): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sh\downloads\d2d\defaultwindow\client\stage.cpp(405): warning C4244: '인수': 'float'에서 'const BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Client.vcxproj -> C:\Users\SH\Downloads\D2D\DefaultWindow\Debug\Client.exe
+  Client.vcxproj -> C:\Users\SH\Downloads\D2D\DefaultWindow\Debug\Client.pdb (Full PDB)
